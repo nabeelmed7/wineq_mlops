@@ -24,3 +24,6 @@ To add all the contents to the staging area:
 To commit:
         git commit -m "First commit"
 
+Create an empty repo on GIThub and then upload all the files opf this local to that remote repo using:
+        git remote add origin https://github.com/nabeelmed7/wineq_mlops.git
+        git push origin main
