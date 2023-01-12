@@ -28,4 +28,14 @@ Create an empty repo on GIThub and then upload all the files opf this local to t
         git remote add origin https://github.com/nabeelmed7/wineq_mlops.git
         git add . && git commit -m "Updated README"
         git push origin main
- 
+To rebuild tox:
+        tox -r
+
+To run test:
+        pytest -v
+
+To setup local package:
+        pip install -e .
+
+To build own package commands (To build the tar file):
+        python setup.py sdist bdist_wheel
