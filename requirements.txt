@@ -4,4 +4,3 @@ sklearn
 pandas
 pytest
 tox
-flake8
